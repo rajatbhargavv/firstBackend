@@ -21,3 +21,7 @@ app.listen(process.env.PORT, () => {
 app.get('/rajatbhargavv', (req,res)=>{
     res.send('You are on rajatbhargavv route')
 })
+
+app.get('/rajatbhargavv2', (req,res)=>{
+    res.send("do not mess with me")
+})
