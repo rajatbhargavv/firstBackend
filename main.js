@@ -9,6 +9,8 @@ const app = express() // creating a powerfull variable app, which get call the f
 
 // const port = 3000  // making a port on which the app will listen data
 
+const port = process.env.PORT || 5000
+
 app.get('/', (req, res) => {
   res.send('Hello World!')  // sending this response when visiting the home route of our app
 })
